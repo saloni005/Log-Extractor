@@ -2,7 +2,7 @@
 
 
 *******************************************************************************************************************************************************************************
-Problem Statement
+Problem Statement: <br>
 Mostly we use our log database to query our logs, but every now and then, we may have to query older logs for customer support or debugging. In most of these cases we know the time range for which we need to analyze the logs. What we now need is a tool that could extract the log lines from given time range and print it to console in time effective manner.
 
 The command line (CLI) for the desired program is as below
@@ -36,3 +36,5 @@ As the number of files is large, we apply binary search operation on 1000 files 
 To get the start/end point of log containing required timestamp, every time we will load the buffer with 1,00,000 logs at a time. If the buffer contains the desired timestamp, then we perform binary search on it to get the exact index of the log.
 
 Analysis: Binary search operations to select file as well as desired log line within the file outperforms linear search operations drastically. Also, using buffers for file selection ensures that every time a subset of total files is taken into consideration.
+
+*******************************************************************************************************************************************************************************
