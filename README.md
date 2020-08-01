@@ -13,12 +13,12 @@ All time formats will be "ISO 8601" format.
 
 The extraction process should complete in few seconds minimizing engineer's wait time.
 
-Log file format
-The log file has one log per line.
-Every log line will start with TimeStamp in "ISO 8601" format followed by comma (',').
-All the log lines will be separated by single new line character '\n'.
-Example logline:
-2020-01-31T20:12:38.1234Z,Some Field,Other Field, And so on, Till new line,...\n
+Log file format <br>
+The log file has one log per line. <br>
+Every log line will start with TimeStamp in "ISO 8601" format followed by comma (','). <br>
+All the log lines will be separated by single new line character '\n'. <br>
+Example logline: <br>
+2020-01-31T20:12:38.1234Z,Some Field,Other Field, And so on, Till new line,...\n 
 *******************************************************************************************************************************************************************************
 
 
