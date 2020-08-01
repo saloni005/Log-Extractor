@@ -1,0 +1,13 @@
+javac LogExtractor.java;java LogExtractor.java -f 2020-06-18T16:09:02.0000Z -t 2020-06-18T16:19:10.0000Z -i logdir/
+
+
+
+
+
+
+
+
+
+
+
+
