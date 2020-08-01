@@ -13,7 +13,7 @@ All time formats will be "ISO 8601" format.
 
 The extraction process should complete in few seconds minimizing engineer's wait time.
 
-Log file format <br>
+Log file format: <br>
 The log file has one log per line. <br>
 Every log line will start with TimeStamp in "ISO 8601" format followed by comma (','). <br>
 All the log lines will be separated by single new line character '\n'. <br>
